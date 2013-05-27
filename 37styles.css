@@ -65,7 +65,7 @@ table {
 .top_header_ul {
 	text-align: right;
 	margin: 0;
-	padding: 5 0 0 0; 
+	padding: 7 0 0 0; 
 }
 
 .top_header_li {
@@ -73,11 +73,12 @@ table {
 	display: inline;
 	font-size: 12px;
 	font-family: 'Lucida Grande', sans-serif;
-	padding: 0 10px 0 0;
+	padding: 0 15px 0 0;
 	color: #6699cc;
 }
 
 #top_header_li {
+	padding: 0 0 0 20px;
 	float: left;
 	color: #999999;
 }
