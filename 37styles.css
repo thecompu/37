@@ -82,7 +82,7 @@ a:hover {
 	display: inline;
 	font-size: 12px;
 	font-family: 'Lucida Grande', sans-serif;
-	padding: 0 15px 0 0;
+	padding: 0 20px 0 0;
 	color: #6699cc;
 }
 
@@ -94,11 +94,24 @@ a:hover {
 
 .div_head {
 	margin: 0 auto;
-	width: 820px;
+	width: 827px;
 	font-family: 'Crimson Text';
 }
 
+.div_main {
+	width: 100%;
+	margin: 8px 0;
+	text-align: center;
+}
+
 .div_head h1 {
-	font-size: 58px;
+	padding-top: 13px;
+	font-size: 57px;
 	letter-spacing: -2px;
+	line-height: 58px;
+}
+
+.div_head h2 {
+	padding-top: 27px;
+	font-size: 20px;
 }
