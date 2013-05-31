@@ -124,12 +124,12 @@ a:hover {
 }
 
 .div_Box {
+	position: relative;
 	width: 160px;
 	height: 217px;
-	float: left;
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
-	margin: 15px 20px 5px 20px;
+	margin: 0 auto;
 	padding: 20px 0px 10px 10px;
 	box-shadow: 0 0 1px 0;
 	background: linear-gradient(#fff, #efefef);
