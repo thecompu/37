@@ -51,7 +51,7 @@ table {
 
 a, a:link {
 	text-decoration: none;
-	color: ##66A8DB;
+	color: #66A8DB;
 }
 
 a:hover {
@@ -114,4 +114,17 @@ a:hover {
 .div_head h2 {
 	padding-top: 27px;
 	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.div_Base {
+	width: 160px;
+	height: 217px;
+	float: left;
+	border: 1px solid rgb(232, 232, 232);
+	border-radius: 5px;
+	margin: 15px 20px 5px 80px;
+	padding: 20px 10px 10px 10px;
+	box-shadow: 0 0 5px;
+	background: linear-gradient(#fff, #efefef);
 }
