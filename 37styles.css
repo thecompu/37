@@ -119,12 +119,12 @@ a:hover {
 
 .div_Boxes {
 	margin: 0 auto;
-	width: 827px;
+	width: 604px;
 	height: 299px;
 }
 
 .div_Box {
-	float: left;
+	display: inline-block;
 	width: 160px;
 	height: 217px;
 	border: 1px solid #e8e8e8;
