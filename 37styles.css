@@ -123,14 +123,25 @@ a:hover {
 	height: 299px;
 }
 
-.div_Box {
+#box{
+	width: 180px;
+	height: 243px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	background: linear-gradient(#fff, #efefef);
 	display: inline-block;
+	margin-left: 18px;
+	margin-right: 18px;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.div_Box {
 	width: 160px;
 	height: 217px;
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
-	padding: 20px 0px 10px 10px;
-	box-shadow: 0 0 1px 0;
-	background: linear-gradient(#fff, #efefef);
 	background: -webkit-linear-gradient(#fff, #efefef);
+	background: linear-gradient(#fff, #efefef);
+	display: inline-block;
+	box-shadow: 0 0 1px 0;
 }
