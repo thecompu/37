@@ -119,20 +119,8 @@ a:hover {
 
 .div_Boxes {
 	margin: 0 auto;
-	width: 604px;
+	width: 606px;
 	height: 299px;
-}
-
-#box{
-	width: 180px;
-	height: 243px;
-	border: 1px solid #e8e8e8;
-	border-radius: 5px;
-	background: linear-gradient(#fff, #efefef);
-	display: inline-block;
-	margin-left: 18px;
-	margin-right: 18px;
-	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .div_Box {
@@ -144,4 +132,6 @@ a:hover {
 	background: linear-gradient(#fff, #efefef);
 	display: inline-block;
 	box-shadow: 0 0 1px 0;
+	margin: 0 20px 0 20px;
+	float: left;
 }
