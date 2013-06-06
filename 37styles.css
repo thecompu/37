@@ -49,10 +49,9 @@ table {
 
 /* End Reset */
 
-a, a:link {
-	text-decoration: none;
+/*a, a:link {
 	color: #66A8DB;
-}
+}*/
 
 a:hover {
 	color: #6699cc;
@@ -84,6 +83,11 @@ a:hover {
 	font-family: 'Lucida Grande', sans-serif;
 	padding: 0 20px 0 0;
 	color: #6699cc;
+}
+
+.top_header_li a {
+	text-decoration: none;
+	color: #66A8DB;
 }
 
 #top_header_li {
@@ -138,5 +142,23 @@ a:hover {
 }
 
 .div_Box img {
-	padding-top: 21px;
+	padding: 21px 0 10px 0;
+}
+
+.product {
+	font-family: 'Lucida Grande';
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.product a {
+		color: #516699;
+}
+
+sup {
+	font-family: 'Lucida Grande';
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: super;
 }
