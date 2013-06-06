@@ -95,6 +95,7 @@ a:hover {
 .div_head {
 	margin: 0 auto;
 	width: 827px;
+	height: 203px;
 	font-family: 'Crimson Text';
 }
 
@@ -119,13 +120,13 @@ a:hover {
 
 .div_Boxes {
 	margin: 0 auto;
-	width: 606px;
+	width: 670px;
 	height: 299px;
 }
 
 .div_Box {
-	width: 160px;
-	height: 217px;
+	width: 179px;
+	height: 245px;
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 	background: -webkit-linear-gradient(#fff, #efefef);
@@ -134,4 +135,8 @@ a:hover {
 	box-shadow: 0 0 1px 0;
 	margin: 0 20px 0 20px;
 	float: left;
+}
+
+.div_Box img {
+	padding-top: 21px;
 }
