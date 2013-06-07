@@ -87,7 +87,7 @@ a:hover {
 
 .top_header_li a {
 	text-decoration: none;
-	color: #66A8DB;
+	color: #369;
 }
 
 .top_header_li a:hover {
@@ -98,6 +98,10 @@ a:hover {
 	padding: 0 0 0 20px;
 	float: left;
 	color: #999999;
+}
+
+#top_header_signin {
+	color: #6699cc;
 }
 
 .div_head {
