@@ -90,6 +90,10 @@ a:hover {
 	color: #66A8DB;
 }
 
+.top_header_li a:hover {
+	color: #6699cc;
+}
+
 #top_header_li {
 	padding: 0 0 0 20px;
 	float: left;
@@ -144,6 +148,14 @@ a:hover {
 	text-align: center;
 }
 
+.div_Box a {
+		color: #516699;	
+}
+
+.div_Box a:hover {
+	color: #6699cc;
+}
+
 .div_Box img {
 	padding: 21px 0 10px 0;
 }
@@ -152,6 +164,10 @@ a:hover {
 	font-size: 21px;
 	padding-bottom: 15px;
 }
+
+/*.product a {
+		color: #516699;
+}*/
 
 .statement {
 	font-size: 14px;
@@ -164,12 +180,7 @@ a:hover {
 	font-weight: normal;
 }
 
-.product a {
-		color: #516699;
-}
-
 sup {
-	font-family: 'Lucida Grande';
 	color: #999;
 	font-weight: normal;
 	font-size: 11px;
