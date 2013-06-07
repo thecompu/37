@@ -139,6 +139,8 @@ a:hover {
 	box-shadow: 0 0 1px 0;
 	margin: 0 20px 0 20px;
 	float: left;
+	font-family: 'Lucida Grande';
+	font-weight: bold;
 }
 
 .div_Box img {
@@ -146,9 +148,19 @@ a:hover {
 }
 
 .product {
-	font-family: 'Lucida Grande';
-	font-weight: bold;
 	font-size: 21px;
+	padding-bottom: 15px;
+}
+
+.statement {
+	font-size: 14px;
+	color: #cc0000;
+	padding-bottom: 15px;
+}
+
+.claim {
+	font-size: 14px;
+	font-weight: normal;
 }
 
 .product a {
