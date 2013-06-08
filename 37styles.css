@@ -178,6 +178,9 @@ table {
 .claim {
 	font-size: 14px;
 	font-weight: normal;
+	line-height: 1.5em;
+	color: black;
+	margin: 0 10px;
 }
 
 sup {
