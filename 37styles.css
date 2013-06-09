@@ -96,27 +96,27 @@ table {
 	color: #6699cc;
 }
 
-.div_head {
-	margin: 0 auto;
-	width: 827px;
-	height: 203px;
-	font-family: 'Crimson Text';
-}
-
 .div_main {
 	width: 100%;
 	margin: 8px 0;
 	text-align: center;
 }
 
-.div_head h1 {
+.div_making {
+	margin: 0 auto;
+	width: 827px;
+	height: 203px;
+	font-family: 'Crimson Text';
+}
+
+.div_making h1 {
 	padding-top: 13px;
 	font-size: 57px;
 	letter-spacing: -2px;
 	line-height: 58px;
 }
 
-.div_head h2 {
+.div_making h2 {
 	padding-top: 27px;
 	font-size: 20px;
 	padding-bottom: 10px;
@@ -188,4 +188,18 @@ sup {
 	font-weight: normal;
 	font-size: 11px;
 	vertical-align: super;
+}
+
+.div_Millions {
+	margin: 0 auto;
+	width: 827px;
+	height: 203px;
+	font-family: 'Crimson Text';	
+}
+
+.div_Millions h1 {
+	padding-top: 13px;
+	font-size: 46px;
+	letter-spacing: -1px;
+	line-height: 48px;
 }
