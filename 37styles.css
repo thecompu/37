@@ -203,3 +203,36 @@ sup {
 	letter-spacing: -1px;
 	line-height: 48px;
 }
+
+.div_Meet {
+	position: relative;
+	font-family: 'Lucida Grande';
+	font-size: 10px;
+	color: #516699;
+}
+
+a.div_MeetImg {
+	position: absolute;
+	top: 53px;
+	left: -98px;
+	width: 143px;
+	height: 104px;
+	background: url('images/img-customers.png');
+}
+
+a.div_MeetImg:hover {
+	background: url('images/img-customers.png') 0 bottom;
+}
+
+a.div_MeetCap {
+	position: absolute;
+	width: 143px;
+	height: 20px;
+	top: 158px;
+	left: -98px;
+	text-decoration: none;
+}
+
+a.div_MeetCap:hover {
+	text-decoration: underline;
+}
