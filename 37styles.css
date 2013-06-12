@@ -107,6 +107,7 @@ table {
 	width: 827px;
 	height: 203px;
 	font-family: 'Crimson Text';
+	font-weight: 600;
 }
 
 .div_making h1 {
@@ -198,10 +199,21 @@ sup {
 }
 
 .div_Millions h1 {
+	font-weight: 600;
 	padding-top: 13px;
 	font-size: 46px;
 	letter-spacing: -1px;
 	line-height: 48px;
+}
+
+p.div_Millions {
+	width: 793px;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: left;
+	color: #666666;
+	line-height: 1.25em;
 }
 
 .div_Meet {
