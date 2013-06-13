@@ -194,7 +194,6 @@ sup {
 .div_Millions {
 	margin: 0 auto;
 	width: 827px;
-	height: 203px;
 	font-family: 'Crimson Text';	
 }
 
@@ -207,10 +206,11 @@ sup {
 }
 
 p.div_Millions {
+	letter-spacing: -0.5px;
 	width: 793px;
-	padding-top: 20px;
+	padding-top: 28px;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 21px;
 	text-align: left;
 	color: #666666;
 	line-height: 1.25em;
@@ -247,4 +247,17 @@ a.div_MeetCap {
 
 a.div_MeetCap:hover {
 	text-decoration: underline;
+}
+
+img.div_Millions {
+	padding: 28px 0 0 5px;
+	height: 200px;
+	width: 200px;
+	float: right;
+}
+
+img.div_Brand {
+	padding-top: 20px;
+	width: 800px;
+	height: 50px;
 }
