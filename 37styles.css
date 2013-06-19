@@ -267,3 +267,18 @@ img.div_Brand {
 	width: 800px;
 	height: 50px;
 }
+
+.div_Built {
+	margin: 0 auto;
+	width: 827px;
+	font-family: 'Crimson Text';	
+}
+
+.div_Built h1 {
+	font-weight: 600;
+	padding-top: 13px;
+	font-size: 46px;
+	letter-spacing: -1px;
+	line-height: 48px;
+}
+
