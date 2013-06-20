@@ -285,6 +285,7 @@ img.div_Brand {
 .div_BuiltLeft {
 	width: 380px;
 	float: left;
+	padding-top: 20px;
 }
 
 .div_BuiltRight {
@@ -294,7 +295,7 @@ img.div_Brand {
 
 .div_BuiltPoint {
 	width: 380px;
-	padding-left: 12px;
+	font-family: 'Lucida Grande';
 }
 
 .div_BuiltPoint h6{
@@ -303,4 +304,22 @@ img.div_Brand {
 	float: left;
 	font-size: 58px;
 	color: #cccccc;
+	padding-right: 10px;
+	margin-top: -15px;
+	padding-bottom: 22px;
+}
+
+.div_BuiltPoint h5 {
+	font-weight: bold;
+	font-size: 16px;
+	color: #cc0000;
+	text-align: left;
+	padding-bottom: 7px;
+}
+
+.div_BuiltPoint p {
+	font-size: 13px;
+	color: black;
+	text-align: left;
+	line-height: 1.5;
 }
