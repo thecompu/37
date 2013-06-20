@@ -282,3 +282,25 @@ img.div_Brand {
 	line-height: 48px;
 }
 
+.div_BuiltLeft {
+	width: 380px;
+	float: left;
+}
+
+.div_BuiltRight {
+	width: 380px;
+	float: right;
+}
+
+.div_BuiltPoint {
+	width: 380px;
+	padding-left: 12px;
+}
+
+.div_BuiltPoint h6{
+	font-family: 'Crimson Text';
+	font-weight: 600;
+	float: left;
+	font-size: 58px;
+	color: #cccccc;
+}
