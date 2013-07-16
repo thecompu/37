@@ -1,5 +1,5 @@
 $(document).ready(function() {
 	$('.div_Box').on('mouseenter', function(){
-		$alert
+		alert("oops!!!")
 	})
 	})
