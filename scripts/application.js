@@ -1,3 +1,5 @@
-jquery(document).ready(function() {
-	// body...
-})
+$(document).ready(function() {
+	$('.div_Box').on('mouseenter', function(){
+		$alert
+	})
+	})
