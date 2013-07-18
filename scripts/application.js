@@ -1,7 +1,8 @@
+
 $(document).ready(function() {
-	$('.div_BC_Box').on('mouseenter', function(){
-		alert("hover");
-		$(this).find('.div_BC_BoxZ');
-		alert("BoxZ");
+	$('div.div_BC_SwapZ').toggleClass('div_BC_Swap');
 	})
-	})
+
+/*$('.div_BC_Box').on('mouseenter', function(){
+		$(this).find('.div_BC_BoxZ').toggleClass('div_BC_Box');
+	})*/

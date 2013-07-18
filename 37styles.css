@@ -183,6 +183,7 @@ hr {
 	height: 203px;
 	font-family: 'Crimson Text';
 	font-weight: 600;
+	display: block;
 }
 
 .div_Box a {
