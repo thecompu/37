@@ -154,6 +154,37 @@ hr {
 	float: left;
 }
 
+.div_BC_Box {
+	width: 179px;
+	height: 245px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#fff, #efefef);
+	background: linear-gradient(#fff, #efefef);
+	display: inline-block;
+	margin: 0 20px 0 20px;
+	float: left;
+}
+
+.div_BC_Box img {
+	padding: 21px 0 10px 0;
+}
+
+.div_BC_SwapZ {
+	display: none;
+}
+
+.div_BC_Swap {
+	position: absolute;
+	background-color: red;
+	z-index: 2;
+	margin: 0 auto;
+	width: 827px;
+	height: 203px;
+	font-family: 'Crimson Text';
+	font-weight: 600;
+}
+
 .div_Box a {
 		color: #516699;	
 }
@@ -161,6 +192,7 @@ hr {
 .div_Box a:hover {
 	color: #516699;
 }
+
 
 .div_Box img {
 	padding: 21px 0 10px 0;
