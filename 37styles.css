@@ -184,6 +184,7 @@ hr {
 	font-family: 'Crimson Text';
 	font-weight: 600;
 	display: block;
+	top: -100px;
 }
 
 .div_Box a {

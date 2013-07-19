@@ -1,9 +1,9 @@
 
 $(document).ready(function() {
 	$('.div_BC_Box').hover(function() {
-	$('div.div_BC_SwapZ').addClass('div_BC_Swap');
+	$('div.div_BC_SwapZ').toggleClass('div_BC_Swap');
 	}, function() {
-		$('div.div_BC_SwapZ').removeClass('div_BC_Swap');
+		$('div.div_BC_SwapZ').toggleClass('div_BC_Swap');
 	});
 })
 
