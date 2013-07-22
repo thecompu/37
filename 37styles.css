@@ -176,7 +176,7 @@ hr {
 
 .div_BC_Swap {
 	position: absolute;
-	background-color: red;
+	background-color: white;
 	z-index: 2;
 	margin: 0 auto;
 	width: 827px;
@@ -184,7 +184,18 @@ hr {
 	font-family: 'Crimson Text';
 	font-weight: 600;
 	display: block;
-	top: -100px;
+	top: 116px;
+	left: 229px;
+}
+
+.div_BC_Arrow {
+	position: absolute;
+	z-index: 3;
+	top: 271px;
+	left: 456px;
+	width: 69px;
+	height: 69px;
+	background: url('images/arrow-left.png') no-repeat right top;
 }
 
 .div_Box a {
