@@ -178,6 +178,30 @@ hr {
 	font-weight: 400;
 }
 
+.div_making_CF {
+	margin: 0 auto;
+	width: 827px;
+	height: 203px;
+	font-family: 'Crimson Text';
+	font-weight: 600;
+}
+
+.div_making_CF h1 {
+	padding-top: 13px;
+	font-size: 48px;
+	letter-spacing: -1px;
+	line-height: 56px;
+}
+
+.div_making_CF h2 {
+	line-height: 23px;
+	padding-top: 6px;
+	font-size: 15px;
+	padding-bottom: 10px;
+	font-family: 'Lucida Grande';
+	font-weight: 400;
+}
+
 .div_Boxes {
 	margin: 0 auto;
 	width: 670px;
@@ -232,6 +256,22 @@ hr {
 }
 
 .div_HR_Box img {
+	padding: 21px 0px 10px 0;
+}
+
+.div_CF_Box {
+	width: 179px;
+	height: 245px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#fff, #efefef);
+	background: linear-gradient(#fff, #efefef);
+	display: inline-block;
+	margin: 0 20px 0 20px;
+	float: left;
+}
+
+.div_CF_Box img {
 	padding: 21px 0px 10px 0;
 }
 
