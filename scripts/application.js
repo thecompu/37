@@ -2,10 +2,12 @@ $(document).ready(function() {
 	$('.div_BC_Box').hover(function() {
 		document.getElementById('Original').style.display = "none";
 		document.getElementById('BaseCamp').style.display = "block";
+		document.getElementById('BCArrow').style.display = "block";
 	},
 	function() {
 		document.getElementById('Original').style.display = "block";
 		document.getElementById('BaseCamp').style.display = "none";
+		document.getElementById('BCArrow').style.display = "none";
 	});
 	$('.div_HR_Box').hover(function() {
 		document.getElementById('Original').style.display = "none";

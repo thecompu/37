@@ -276,7 +276,7 @@ hr {
 }
 
 .div_BC_Arrow {
-	position: absolute;
+	position: fixed;
 	z-index: 3;
 	top: 271px;
 	left: 456px;
