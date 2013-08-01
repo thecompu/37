@@ -129,6 +129,55 @@ hr {
 	padding-bottom: 10px;
 }
 
+.div_making_BC {
+	margin: 0 auto;
+	width: 827px;
+	height: 203px;
+	font-family: 'Crimson Text';
+	font-weight: 600;
+}
+
+.div_making_BC h1 {
+	padding-top: 13px;
+	font-size: 48px;
+	letter-spacing: -2px;
+	line-height: 56px;
+}
+
+.div_making_BC h2 {
+	line-height: 23px;
+	padding-top: 6px;
+	font-size: 15px;
+	padding-bottom: 10px;
+	font-family: 'Lucida Grande';
+	font-weight: 400;
+}
+
+
+.div_making_HR {
+	margin: 0 auto;
+	width: 827px;
+	height: 203px;
+	font-family: 'Crimson Text';
+	font-weight: 600;
+}
+
+.div_making_HR h1 {
+	padding-top: 13px;
+	font-size: 48px;
+	letter-spacing: -2px;
+	line-height: 56px;
+}
+
+.div_making_HR h2 {
+	line-height: 23px;
+	padding-top: 6px;
+	font-size: 15px;
+	padding-bottom: 10px;
+	font-family: 'Lucida Grande';
+	font-weight: 400;
+}
+
 .div_Boxes {
 	margin: 0 auto;
 	width: 670px;
@@ -170,22 +219,20 @@ hr {
 	padding: 21px 0 10px 0;
 }
 
-.div_BC_SwapZ {
-	display: none;
+.div_HR_Box {
+	width: 179px;
+	height: 245px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#fff, #efefef);
+	background: linear-gradient(#fff, #efefef);
+	display: inline-block;
+	margin: 0 20px 0 20px;
+	float: left;
 }
 
-.div_BC_Swap {
-	position: absolute;
-	background-color: white;
-	z-index: 2;
-	margin: 0 auto;
-	width: 827px;
-	height: 203px;
-	font-family: 'Crimson Text';
-	font-weight: 600;
-	display: block;
-	top: 116px;
-	left: 229px;
+.div_HR_Box img {
+	padding: 21px 0px 10px 0;
 }
 
 .div_BC_Arrow {

@@ -1,12 +1,26 @@
-
 $(document).ready(function() {
 	$('.div_BC_Box').hover(function() {
-	$('div.div_BC_SwapZ').toggleClass('div_BC_Swap');
-	}, function() {
-		$('div.div_BC_SwapZ').toggleClass('div_BC_Swap');
+		document.getElementById('Original').style.display = "none";
+		document.getElementById('BaseCamp').style.display = "block";
+	},
+	function() {
+		document.getElementById('Original').style.display = "block";
+		document.getElementById('BaseCamp').style.display = "none";
 	});
-})
-
-/*$('.div_BC_Box').on('mouseenter', function(){
-		$(this).find('.div_BC_BoxZ').toggleClass('div_BC_Box');
-	})*/
+	$('.div_HR_Box').hover(function() {
+		document.getElementById('Original').style.display = "none";
+		document.getElementById('Highrise').style.display = "block";
+	},
+	function() {
+		document.getElementById('Original').style.display = "block";
+		document.getElementById('Highrise').style.display = "none";
+	});
+	$('.div_CF_Box').hover(function() {
+		document.getElementById('Original').style.display = "none";
+		document.getElementById('Campfire').style.display = "block";
+	},
+	function() {
+		document.getElementById('Original').style.display = "block";
+		document.getElementById('Campfire').style.display = "none";
+	});
+});
