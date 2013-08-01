@@ -130,6 +130,7 @@ hr {
 }
 
 .div_making_BC {
+	z-index: 2;
 	margin: 0 auto;
 	width: 827px;
 	height: 203px;
@@ -153,6 +154,12 @@ hr {
 	font-weight: 400;
 }
 
+.div_making_BC img {
+	position: relative;
+	width: 69px;
+	height: 69px;
+	left: -136px;
+}
 
 .div_making_HR {
 	margin: 0 auto;
@@ -178,6 +185,13 @@ hr {
 	font-weight: 400;
 }
 
+.div_making_HR img {
+	position: relative;
+	width: 69px;
+	height: 69px;
+	left: 91px;
+}
+
 .div_making_CF {
 	margin: 0 auto;
 	width: 827px;
@@ -200,6 +214,13 @@ hr {
 	padding-bottom: 10px;
 	font-family: 'Lucida Grande';
 	font-weight: 400;
+}
+
+.div_making_CF img {
+	position: relative;
+	width: 69px;
+	height: 69px;
+	left: 128px;
 }
 
 .div_Boxes {
@@ -273,16 +294,6 @@ hr {
 
 .div_CF_Box img {
 	padding: 21px 0px 10px 0;
-}
-
-.div_BC_Arrow {
-	position: fixed;
-	z-index: 3;
-	top: 271px;
-	left: 456px;
-	width: 69px;
-	height: 69px;
-	background: url('images/arrow-left.png') no-repeat right top;
 }
 
 .div_Box a {
